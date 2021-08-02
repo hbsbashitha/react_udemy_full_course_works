@@ -1,0 +1,5 @@
+[0m2021.08.02 10:16:19 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.02 10:16:20 INFO  time: initialize in 1.58s[0m
+[0m2021.08.02 10:16:23 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.02 10:16:23 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.02 10:17:43 INFO  shutting down Metals[0m

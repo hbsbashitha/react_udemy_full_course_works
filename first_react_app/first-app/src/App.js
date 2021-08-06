@@ -1,79 +1,58 @@
- import React, {useState} from 'react';
-import './App.css';
-import Person from './Person/Person'
 
- const App=(props) => {
 
-  const styles = {
-    backgroundColor:'green',
-    font:'inherit',
-    border:'1px solid blue',
-    padding:'8px',
-    cursor:'pointer'
+
+
+
+
+
+
+
+
+
+
+
+
+import React,{Component} from 'react';
+import './App.css'
+import Validation from './Validation/Validation';
+import Char from './Char/Char'
+
+class App extends Component{
+
+  state={
+    userInput:''
   }
 
-  const [personState, setPersonState] = useState({
-    person:[
-      
-      {name:'bhashitha', age:44},
-      {name:'sadeepa', age:21},
-      {name:'ranaginge', age:33}
 
-    ],
+  inputChangeHandler=(event) =>{
+
+    this.setState(
+      {userInput:event.target.value}
+    )
+  }
 
 
-  })
+  deleteCharacter = (index) =>{
+    const text=this.state.userInput.split('');
+    text.splice(index,1);
+    const updatedText=text.join('');
+    this.setState({userInput:updatedText});
+  }
+  render(){
 
-  const [otherState, setOtherState] = useState('some other value')
-  console.log(personState,otherState)
-
-  const switchNameHandler = (newName)=>{
-
-    setPersonState({
-      person:[
-        {name:newName, age:21},
-        {name:'bhashitha', age:44},
-        {name:'ranaginge', age:33}
-  
-      ],
-      
-      
+    const charList=this.state.userInput.split("").map((ch,index)=>{
+      return (<Char character={ch} key={index} delete ={()=>this.deleteCharacter(index)}/>)
     })
-  }
-  const changeName=(event)=> {
 
-    setPersonState({
-      person:[
-        
-        {name:'bhashitha', age:44},
-        {name:event.target.value, age:21},
-        {name:'ranaginge', age:33}
-  
-      ],
-  })
-
-     
+    return (
+      <div className="App">
+        <p>{this.state.userInput}</p>
+        <input type='text' onChange={this.inputChangeHandler} value={this.state.userInput}/>
+        <Validation length={this.state.userInput.length}/>
+        {charList}
+      </div>
+    )
   }
 
-
-  return (
-    <div className="App">
-      <h1> About person information</h1>
-      <Person 
-        click={switchNameHandler}
-        name={personState.person[0].name} 
-        age={personState.person[0].age}
-        />
-      <Person  
-        click={switchNameHandler} 
-        name={personState.person[1].name} 
-        age={personState.person[1].age}
-        changed={changeName}/>
-
-      <button style={styles} onClick={switchNameHandler.bind(this,'bbbbbbbb')}> click me</button>
-    </div>
-  );
 }
-
-
 export default App;

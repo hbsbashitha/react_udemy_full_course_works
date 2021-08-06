@@ -1,0 +1,12 @@
+[0m2021.08.03 17:57:35 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.03 17:57:37 INFO  time: initialize in 2.04s[0m
+[0m2021.08.03 17:57:42 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.03 17:57:42 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.04 16:04:20 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.04 16:04:24 INFO  time: initialize in 3.7s[0m
+[0m2021.08.04 16:04:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.04 16:04:57 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.05 15:36:37 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.05 15:36:39 INFO  time: initialize in 1.53s[0m
+[0m2021.08.05 15:36:51 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.05 15:36:51 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m

@@ -2,7 +2,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import Person from './Person/Person';
-import Radium ,{StyleRoot} from 'radium';
+
 
 class App extends Component {
 
@@ -47,11 +47,7 @@ class App extends Component {
 
     this.setState(
       {
-        // Person:[{ id:'bh1',Name:event.target.value,Age:'28'},
-        // {id:'bh2',Name:'Manu',Age:'29'},
-        // {id:'bh3',Name:'Stephanie',Age:'26'}],
-
-        Person:pers
+     Person:pers
   
       }
     );
@@ -67,11 +63,7 @@ render(){
     font:'inherit',
     border:'1px solid blue',
     padding:'8px',
-    cursor:'pointer',
-    ':hover':{
-      background:'lightgreen',
-      color:'black'
-    }
+    cursor:'pointer'
   };
 
 
@@ -91,10 +83,6 @@ render(){
     )
 
     styles.background='red';
-    styles[':hover']={
-      background:'salmon',
-      color:'black'
-      }
     }
 
 
@@ -108,7 +96,7 @@ render(){
       }
   return(
 
-<StyleRoot>
+
 <div className="App">
       
       <h1>Hi,I'm a React App</h1>
@@ -116,10 +104,10 @@ render(){
       <button style={styles} onClick={this.switchToUsers}>Switch Name</button>
       {person}
     </div>
-</StyleRoot>
+
   )
   }
 }
 
 
-export default Radium(App);
+export default (App);

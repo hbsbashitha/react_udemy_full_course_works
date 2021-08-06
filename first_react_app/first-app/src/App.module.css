@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.red{
+  color:red;
+}
+.bold{
+  font-weight:bold;
+}
+
+.App button{
+  background:green;
+  color:white;
+  font:inherit;
+  border:1px solid blue;
+  padding:8px;
+  cursor:pointer;
+}
+.App button:hover{
+  background: lightgreen;
+}
+
+.App button.Red{
+  background:red;
+}
+.App button.Red:hover{
+  background:salmon;
+  color: black;
+}

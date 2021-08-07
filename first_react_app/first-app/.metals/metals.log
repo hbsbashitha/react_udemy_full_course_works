@@ -20,3 +20,11 @@
 [0m2021.08.06 17:04:10 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 Aug 06, 2021 5:05:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.08.07 09:02:15 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.07 09:02:16 INFO  time: initialize in 1.57s[0m
+[0m2021.08.07 09:02:25 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.07 09:02:25 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.07 19:22:17 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app' for client Visual Studio Code 1.59.0.[0m
+[0m2021.08.07 19:22:20 INFO  time: initialize in 3.23s[0m
+[0m2021.08.07 19:22:31 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.07 19:22:31 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m

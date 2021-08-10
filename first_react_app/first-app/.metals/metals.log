@@ -28,3 +28,7 @@ INFO: Unsupported notification method: $/setTrace
 [0m2021.08.07 19:22:20 INFO  time: initialize in 3.23s[0m
 [0m2021.08.07 19:22:31 WARN  Build server is not auto-connectable.[0m
 [0m2021.08.07 19:22:31 WARN  no build tool detected in workspace 'C:\Users\bhashitha 2\Desktop\react_udemy_full_course_works\first_react_app\first-app'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Aug 07, 2021 10:31:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 09, 2021 8:06:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
